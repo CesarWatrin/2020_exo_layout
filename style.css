@@ -54,18 +54,6 @@ img {
     display: none;
   }
 
-  .div_title {
-    text-align: center;
-  }
-
-  .div_sub_title {
-    text-align: center;
-  }
-
-  .div_images {
-    text-align: center;
-  }
-
   .div_images > div {
     display: inline-block;
     width: 49%;
@@ -91,19 +79,6 @@ img {
     display: none;
   }
 
-  .div_title {
-    text-align: center;
-  }
-
-  .div_sub_title {
-    text-align: center;
-  }
-
-  .div_images {
-    text-align: center;
-    margin: 0 auto;
-  }
-
   .div_images > div {
     display: inline-block;
     width: 458.25px;
@@ -127,18 +102,6 @@ img {
 
   .telephone {
     display: none;
-  }
-
-  .div_title {
-    text-align: center;
-  }
-
-  .div_sub_title {
-    text-align: center;
-  }
-
-  .div_images {
-    text-align: center;
   }
 
   .div_images > div {
