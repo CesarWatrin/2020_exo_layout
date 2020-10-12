@@ -2,15 +2,7 @@ img {
   width: 100%;
 }
 
-.desktopG {
-  display: none;
-}
-
-.desktop {
-  display: none;
-}
-
-.tablette {
+.desktopG, .desktop, .tablette {
   display: none;
 }
 
@@ -38,20 +30,12 @@ img {
 
 @media screen and (min-width: 768px) {
 
-  .desktopG {
-    display: none;
-  }
-
-  .desktop {
+  .desktopG, .desktop, .telephone {
     display: none;
   }
 
   .tablette {
     display: block;
-  }
-
-  .telephone {
-    display: none;
   }
 
   .div_images > div {
@@ -63,20 +47,12 @@ img {
 
 @media screen and (min-width: 970px) {
 
-  .desktopG {
+  .desktopG, .tablette, .telephone {
     display: none;
   }
 
   .desktop {
     display: block;
-  }
-
-  .tablette {
-    display: none;
-  }
-
-  .telephone {
-    display: none;
   }
 
   .div_images > div {
@@ -92,15 +68,7 @@ img {
     display: block;
   }
 
-  .desktop {
-    display: none;
-  }
-
-  .tablette {
-    display: none;
-  }
-
-  .telephone {
+  .desktop, .tablette, .telephone {
     display: none;
   }
 
