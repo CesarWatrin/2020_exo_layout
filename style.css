@@ -64,12 +64,12 @@ img {
 
 @media screen and (min-width: 1370px) {
 
-  .desktopG {
-    display: block;
-  }
-
   .desktop, .tablette, .telephone {
     display: none;
+  }
+
+  .desktopG {
+    display: block;
   }
 
   .div_images > div {
